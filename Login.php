@@ -1,4 +1,5 @@
 <?php
+// Hello
 // 1. Initializing (Like your Go setup)
 session_start(); // Always call this before touching $_SESSION
 // echo "My ID is: " . session_id();
