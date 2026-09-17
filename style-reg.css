@@ -1,0 +1,124 @@
+*{
+	box-sizing: border-box;
+	font-family: Helvetica, sans-serif;
+}
+
+td div {
+	display: inline-block;
+}
+
+#sub-nav-container-2 {
+	display: flex;
+	align-items: center;
+	text-align: center;
+		justify-content: space-between;
+}
+
+.form-table-data input {
+	height: 20px;
+	border-radius: 5px;
+	margin: 0px 5px 0px;
+	border: none;
+	background-color: rgb(151, 181, 181);
+	color: white;
+	padding: 14px;
+}
+input {
+	background-color: "black";
+}
+
+body {
+	height: auto;
+	box-sizing: border-box;
+	background-image: url("../images/register-bg-02.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+body{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"	
+}
+body h1 {
+	color: hsla(180, 52%, 35%, 1);
+	text-align: center;
+}
+
+.form-table {
+	font-weight: bold;
+	font-size: 13px;
+	backdrop-filter: blur(5px);
+	background: linear-gradient(180deg, hsla(180, 52%, 35%, .2), white);
+	margin: auto;
+	padding: 30px;
+	/* border: 3px solid hsl(60, 0%, 15%); */
+	border-radius: 15px;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, .2);
+}
+
+.form {
+	color: hsla(180, 52%, 35%, 1);
+	font-family: monospace;
+}
+
+.form-table-data {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+td {
+	padding: 10px 0px;
+	vertical-align: bottom;
+}
+td label{
+	line-height: 200%;
+}
+
+textarea {
+	width: 100%;
+	height: 50px;
+	border-radius: 5px;
+	background-color: rgb(151, 181, 181);
+	border: none;
+	color: white;
+}
+
+.submit-area {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+}
+.submit-area button{
+	width: 100%;
+	display: block;
+	border-radius: 50px;
+	padding: 10px;
+	margin: 0px 5px;
+	background-color: hsla(180, 52%, 35%, 1);
+	border: none;
+	color: white;
+	cursor: pointer;
+}
+
+
+td a {
+	color: hsla(180, 52%, 35%, 1);
+	display: block;
+	width: 100%;
+	text-align: center;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+td select {
+	margin: 0;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 70%;
+	height: 30px;
+	color: white;
+	background-color: hsl(210, 50%, 15%);
+	border-radius: 5px;
+}
